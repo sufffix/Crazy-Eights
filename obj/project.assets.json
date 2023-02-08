@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\CS20\\C#\\Blackjack\\Blackjack.csproj",
-      "projectName": "Blackjack",
-      "projectPath": "F:\\CS20\\C#\\Blackjack\\Blackjack.csproj",
+      "projectUniqueName": "F:\\CS30\\C#\\Crazy-Eights\\Crazy-Eights.csproj",
+      "projectName": "Crazy-Eights",
+      "projectPath": "F:\\CS30\\C#\\Crazy-Eights\\Crazy-Eights.csproj",
       "packagesPath": "C:\\Users\\s.stockdale1\\.nuget\\packages\\",
-      "outputPath": "F:\\CS20\\C#\\Blackjack\\obj\\",
+      "outputPath": "F:\\CS30\\C#\\Crazy-Eights\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

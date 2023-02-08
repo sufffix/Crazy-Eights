@@ -1,0 +1,15 @@
+F:\CS30\C#\Crazy-Eights\bin\Debug\net6.0\Crazy-Eights.exe
+F:\CS30\C#\Crazy-Eights\bin\Debug\net6.0\Crazy-Eights.deps.json
+F:\CS30\C#\Crazy-Eights\bin\Debug\net6.0\Crazy-Eights.runtimeconfig.json
+F:\CS30\C#\Crazy-Eights\bin\Debug\net6.0\Crazy-Eights.dll
+F:\CS30\C#\Crazy-Eights\bin\Debug\net6.0\Crazy-Eights.pdb
+F:\CS30\C#\Crazy-Eights\obj\Debug\net6.0\Crazy-Eights.csproj.AssemblyReference.cache
+F:\CS30\C#\Crazy-Eights\obj\Debug\net6.0\Crazy-Eights.GeneratedMSBuildEditorConfig.editorconfig
+F:\CS30\C#\Crazy-Eights\obj\Debug\net6.0\Crazy-Eights.AssemblyInfoInputs.cache
+F:\CS30\C#\Crazy-Eights\obj\Debug\net6.0\Crazy-Eights.AssemblyInfo.cs
+F:\CS30\C#\Crazy-Eights\obj\Debug\net6.0\Crazy-Eights.csproj.CoreCompileInputs.cache
+F:\CS30\C#\Crazy-Eights\obj\Debug\net6.0\Crazy-Eights.dll
+F:\CS30\C#\Crazy-Eights\obj\Debug\net6.0\refint\Crazy-Eights.dll
+F:\CS30\C#\Crazy-Eights\obj\Debug\net6.0\Crazy-Eights.pdb
+F:\CS30\C#\Crazy-Eights\obj\Debug\net6.0\Crazy-Eights.genruntimeconfig.cache
+F:\CS30\C#\Crazy-Eights\obj\Debug\net6.0\ref\Crazy-Eights.dll

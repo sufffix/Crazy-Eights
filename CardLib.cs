@@ -1,6 +1,4 @@
-// Cards.cs -- contains deck and cards
-#nullable disable
-
+// CardLib.cs -- Salem's Card Library, contains deck, cards, and enums for suit and cardvalue
 namespace CardLib
 {
     // deck of cards, contains deck management methods
@@ -8,6 +6,7 @@ namespace CardLib
     {
         // initialize variables
         private List<Card> cards;
+        private Random random = new Random();
 
         // get sorted deck of all cards
         public List<Card> GetSortedDeck()
@@ -36,12 +35,19 @@ namespace CardLib
             Console.WriteLine(result);
         }
 
-        // return and remove last card of deck
+        // return and remove first card of deck
         public Card DrawCard()
         {
-            Card lastCard = cards.Last();
-            cards.Remove(lastCard);
-            return lastCard;
+            Card drawnCard = cards[0];
+            cards.Remove(drawnCard);
+            return drawnCard;
+        }
+
+        // return card to random spot in deck
+        public void ReturnCard(Card card)
+        {
+            int randomIndex = random.Next(0, cards.Count);
+            cards.Insert(randomIndex, card);
         }
 
         // get deck and shuffle
@@ -49,6 +55,20 @@ namespace CardLib
         {
             cards = GetSortedDeck();
             cards.Shuffle();
+        }
+    }
+
+    // hand of cards
+    public class Hand
+    {
+        public List<Card> cards = new List<Card>();
+
+        // draw card, add to cards, return card name string
+        public string DrawCard(Deck deck)
+        {
+            Card drawnCard = deck.DrawCard();
+            cards.Add(drawnCard);
+            return (drawnCard.CardToString());
         }
     }
 
@@ -64,7 +84,7 @@ namespace CardLib
             value = cardValue;
         }
 
-        // convert card to string
+        // convert card to string in form '[value] of [suit]'
         public string CardToString()
         {
             string cardString = $"{this.value} of {this.suit}";
